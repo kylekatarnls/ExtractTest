@@ -169,7 +169,7 @@ else
 fi
 
 
-echo -e "Run: ${BLUE}script.sh httpz://www.ovnicap.com/ end SQL${NC}"
+echo -e "Run: ${BLUE}script.sh httpz://www.ovnicap.com/ middle SQL${NC}"
 
 output=$(../script.sh httpz://www.ovnicap.com/ middle SQL)
 exitCode="$?"
